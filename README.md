@@ -2,7 +2,13 @@
 
 ## About
 
-This Jekyll plugin uses Twitter Bootstrap's CSS to embed responsive YouTube videos using a Liquid tag. The page must include Bootstrap.
+This Jekyll plugin uses Twitter Bootstrap's CSS to embed responsive YouTube videos in a post or page using a Liquid tag:
+
+`{% youtube <YOUTUBE VIDEO ID> %}`
+
+## Dependencies
+
+The Jekyll post or page must include the Bootstrap stylesheet.
 
 ## Usage:
 
@@ -11,7 +17,7 @@ This Jekyll plugin uses Twitter Bootstrap's CSS to embed responsive YouTube vide
 
 ## Example
 
-For example, to embed the video with the link `https://www.youtube.com/watch?v=tnq2gwBhvCc` use the following tag:
+To embed the video with the link `https://www.youtube.com/watch?v=tnq2gwBhvCc` use the following tag:
 
 {% youtube tnq2gwBhvCc %}
 
