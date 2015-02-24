@@ -4,7 +4,7 @@
 # by Jeffrey Morgan
 # http://usabilityetc.com/
 #
-# Use Bootstrap's CSS to embed responsive YouTube videos.
+# Use Twitter Bootstrap's CSS to embed responsive YouTube videos.
 #
 # Usage:
 #

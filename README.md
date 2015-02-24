@@ -2,7 +2,7 @@
 
 ## About
 
-This Jekyll plugin uses Bootstrap's CSS to embed responsive YouTube videos.
+This Jekyll plugin uses Twitter Bootstrap's CSS to embed responsive YouTube videos using a Liquid tag. The page must include Bootstrap.
 
 ## Usage:
 
@@ -16,3 +16,9 @@ For example, to embed the video with the link `https://www.youtube.com/watch?v=t
 {% youtube tnq2gwBhvCc %}
 
 `tnq2gwBhvCc` is the YouTube video ID.
+
+This tag will insert the following HTML and Bootstrap CSS classes into the page:
+
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/tnq2gwBhvCc" frameborder="0" allowfullscreen=""></iframe>
+</div>
