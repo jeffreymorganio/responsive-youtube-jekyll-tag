@@ -19,8 +19,8 @@ For example, to embed the video with the link `https://www.youtube.com/watch?v=t
 
 This tag will insert the following HTML and Bootstrap CSS classes into the page:
 
-{% highlight html %}
+```
 <div class="embed-responsive embed-responsive-16by9">
 	<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/tnq2gwBhvCc" frameborder="0" allowfullscreen=""></iframe>
 </div>
-{% endhighlight %}
+```
