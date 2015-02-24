@@ -19,7 +19,7 @@ The Jekyll post or page must include the Bootstrap stylesheet.
 
 To embed the video with the link `https://www.youtube.com/watch?v=tnq2gwBhvCc` use the following tag:
 
-{% youtube tnq2gwBhvCc %}
+`{% youtube tnq2gwBhvCc %}`
 
 `tnq2gwBhvCc` is the YouTube video ID.
 
