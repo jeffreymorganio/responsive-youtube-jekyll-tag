@@ -21,6 +21,8 @@ This tag will insert the following HTML and Bootstrap CSS classes into the page:
 
 ```
 <div class="embed-responsive embed-responsive-16by9">
-	<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/tnq2gwBhvCc" frameborder="0" allowfullscreen=""></iframe>
+  <iframe class="embed-responsive-item" width="560" height="315"
+    src="https://www.youtube.com/embed/tnq2gwBhvCc" frameborder="0"
+    allowfullscreen=""></iframe>
 </div>
 ```
