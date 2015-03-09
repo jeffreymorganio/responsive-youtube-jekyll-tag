@@ -24,7 +24,7 @@ module Jekyll
   class ResponsiveYouTubeTag < Liquid::Tag
     def initialize(tag_name, markup, options)
       super
-      @video_id = markup
+      @video_id = markup.strip
     end
 
     def render(context)
