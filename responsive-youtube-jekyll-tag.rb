@@ -2,7 +2,7 @@
 # responsive-youtube-jekyll-tag.rb
 #
 # by Jeffrey Morgan
-# http://usabilityetc.com/
+# https://jeffreymorgan.io/
 #
 # Use Twitter Bootstrap's CSS to embed responsive YouTube videos.
 #
